@@ -75,8 +75,6 @@ class AlienInvasion:
         self.screen.fill(self.settings.bg_color)
         self.ship.blitme()
 
-        pygame.display.flip()
-
 if __name__ == '__main__':
     # Make a game instance, and run the game.
     ai = AlienInvasion()
