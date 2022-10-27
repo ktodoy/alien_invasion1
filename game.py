@@ -2,7 +2,7 @@ import sys
 import pygame
 from settings import Settings
 from ship import Ship
-from bullets import Bullet
+from bullet import Bullet
 
 class AlienInvasion:
     """Overall class to manage game assests and behavior."""
@@ -98,7 +98,7 @@ class AlienInvasion:
         self.ship.blitme()
         for bullet in self.bullets.sprites():
             bullet.draw_bullet()
-            pygame.display.flip()
+        pygame.display.flip()
 
 if __name__ == '__main__':
     # Make a game instance, and run the game.
