@@ -1,6 +1,4 @@
 import pygame
-import time
-
 
 class Picture():
     def __init__(self, screen, image_address):
@@ -22,5 +20,3 @@ screen.fill((230, 230, 230))
 ship = Picture(screen, 'ship.bmp')
 ship.draw()
 pygame.display.flip()
-
-time.sleep(10)
